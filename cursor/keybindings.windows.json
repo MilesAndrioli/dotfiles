@@ -1,82 +1,34 @@
 [
     {
         "key": "ctrl+j",
-        "command": "workbench.action.openSettingsJson",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+j",
-        "command": "workbench.action.openSettingsJson",
-        "when": "isMac"
+        "command": "workbench.action.openSettingsJson"
     },
     {
         "key": "ctrl+q",
-        "command": "workbench.action.previousEditor",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+q",
-        "command": "workbench.action.previousEditor",
-        "when": "isMac"
+        "command": "workbench.action.previousEditor"
     },
     {
         "key": "ctrl+e",
-        "command": "workbench.action.nextEditor",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+e",
-        "command": "workbench.action.nextEditor",
-        "when": "isMac"
+        "command": "workbench.action.nextEditor"
     },
     {
         "key": "ctrl+f1",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+f1",
-        "command": "workbench.action.toggleSidebarVisibility",
-        "when": "isMac"
+        "command": "workbench.action.toggleSidebarVisibility"
     },
     {
         "key": "ctrl+f2",
-        "command": "workbench.action.toggleAuxiliaryBar",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+f2",
-        "command": "workbench.action.toggleAuxiliaryBar",
-        "when": "isMac"
+        "command": "workbench.action.toggleAuxiliaryBar"
     },
     {
         "key": "ctrl+f3",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+f3",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "isMac"
+        "command": "workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "ctrl+f4",
-        "command": "workbench.action.toggleStatusbarVisibility",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+f4",
-        "command": "workbench.action.toggleStatusbarVisibility",
-        "when": "isMac"
+        "command": "workbench.action.toggleStatusbarVisibility"
     },
     {
         "key": "ctrl+b",
-        "command": "breadcrumbs.toggle",
-        "when": "isWindows"
-    },
-    {
-        "key": "cmd+b",
-        "command": "breadcrumbs.toggle",
-        "when": "isMac"
+        "command": "breadcrumbs.toggle"
     }
 ]
