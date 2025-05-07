@@ -7,18 +7,18 @@
 
     // Brackets
     "editor.matchBrackets": "never",
-    "editor.bracketPairColorization.enabled": false,
+    // "editor.bracketPairColorization.enabled": false,
     // "editor.guides.bracketPairs": "active",
 
     // Icons
-    // "workbench.iconTheme": "material-icon-theme",
-    // "material-icon-theme.folders.theme": "none",
-    "workbench.iconTheme": "glyph.legacy",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "none",
+    // "workbench.iconTheme": "glyph.legacy",
 
     // Theme
     "workbench.colorTheme": "Monochrome Dark",
     "workbench.colorCustomizations": {
-        "[Monochrome Dark]": {
+        "[Monochrome Dark *]": {
             "tab.activeBackground": "#191919",
             "tab.border": "#191919"
         }
