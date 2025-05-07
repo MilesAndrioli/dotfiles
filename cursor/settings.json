@@ -84,5 +84,6 @@
         "asvetliakov.vscode-neovim": 1
     },
     "workbench.statusBar.visible": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "git.confirmSync": false
 }
