@@ -76,7 +76,7 @@
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.enabled": false,
     "editor.wordWrap": "wordWrapColumn",
-    "window.title": "${activeRepositoryBranchName} ${separator} ${rootNameShort}/${activeFolderMedium}",
+    "window.title": "${activeRepositoryBranchName} ${separator} ${rootNameShort} ${activeFolderMedium}",
 
     // Experimental
     // "editor.lineNumbers": "relative",
