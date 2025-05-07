@@ -7,13 +7,13 @@
 
     // Brackets
     "editor.matchBrackets": "never",
-    // "editor.bracketPairColorization.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
     // "editor.guides.bracketPairs": "active",
 
     // Icons
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "none",
-    // "workbench.iconTheme": "glyph.legacy",
+    // "workbench.iconTheme": "material-icon-theme",
+    // "material-icon-theme.folders.theme": "none",
+    "workbench.iconTheme": "glyph.legacy",
 
     // Theme
     "workbench.colorTheme": "Monochrome Dark",
@@ -77,6 +77,7 @@
     "workbench.layoutControl.enabled": false,
     "editor.wordWrap": "wordWrapColumn",
     "window.title": "${activeRepositoryBranchName} ${separator} ${rootNameShort} ${activeFolderMedium}",
+    "git.confirmSync": false,
 
     // Experimental
     // "editor.lineNumbers": "relative",
@@ -84,6 +85,5 @@
         "asvetliakov.vscode-neovim": 1
     },
     "workbench.statusBar.visible": false,
-    "breadcrumbs.enabled": false,
-    "git.confirmSync": false
+    "breadcrumbs.enabled": false
 }
