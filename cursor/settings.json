@@ -7,13 +7,13 @@
 
     // Brackets
     "editor.matchBrackets": "never",
-    "editor.bracketPairColorization.enabled": false,
+    // "editor.bracketPairColorization.enabled": false,
     // "editor.guides.bracketPairs": "active",
 
     // Icons
-    // "workbench.iconTheme": "material-icon-theme",
-    // "material-icon-theme.folders.theme": "none",
-    "workbench.iconTheme": "glyph.legacy",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "none",
+    // "workbench.iconTheme": "glyph.legacy",
 
     // Theme
     "workbench.colorTheme": "Monochrome Dark",
@@ -62,29 +62,27 @@
     // Scroll
     "editor.smoothScrolling": true,
     "editor.scrollBeyondLastLine": false,
-    "editor.mouseWheelScrollSensitivity": 1.6,
+    "editor.mouseWheelScrollSensitivity": 1.3,
 
     // Terminal
     "terminal.external.windowsExec": "C:\\Users\\miles\\AppData\\Local\\Programs\\Warp/warp.exe",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    // "terminal.external.osxExec": "Warp.app",
-    // "terminal.integrated.defaultProfile.osx": "zsh"
+    // "terminal.external.osxExec": "Warp",
+    "terminal.integrated.defaultProfile.osx": "zsh",
 
     // Sorting
     "explorer.confirmDelete": false,
     "editor.linkedEditing": true,
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.enabled": false,
-    "window.title": "${folderName}",
     "editor.wordWrap": "wordWrapColumn",
+    "window.title": "${activeRepositoryBranchName} ${separator} ${rootNameShort}/${activeFolderMedium}",
 
     // Experimental
     // "editor.lineNumbers": "relative",
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "editor.scrollbar.verticalScrollbarSize": 10,
-    "editor.scrollbar.horizontalScrollbarSize": 10,
-    "breadcrumbs.enabled": false,
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false
 }
