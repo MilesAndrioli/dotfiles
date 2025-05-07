@@ -1,0 +1,90 @@
+{
+    // Typography
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 13,
+
+    // Brackets
+    "editor.matchBrackets": "never",
+    "editor.bracketPairColorization.enabled": false,
+    // "editor.guides.bracketPairs": "active",
+
+    // Icons
+    // "workbench.iconTheme": "material-icon-theme",
+    // "material-icon-theme.folders.theme": "none",
+    "workbench.iconTheme": "glyph.legacy",
+
+    // Theme
+    "workbench.colorTheme": "Monochrome Dark",
+    "workbench.colorCustomizations": {
+        "[Monochrome Dark]": {
+            "tab.activeBackground": "#191919",
+            "tab.border": "#191919"
+        }
+    },
+
+    // Ruler
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#191919"
+        }
+    ],
+
+    // Indent
+    "indentRainbow.colors": [
+        "rgba(180, 180, 180, 0.02)",
+        "rgba(180, 180, 180, 0.04)",
+        "rgba(180, 180, 180, 0.06)",
+        "rgba(180, 180, 180, 0.08)",
+        "rgba(180, 180, 180, 0.10)",
+        "rgba(180, 180, 180, 0.12)",
+        "rgba(180, 180, 180, 0.14)",
+        "rgba(180, 180, 180, 0.16)"
+    ],
+
+    // Cursor
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    // Formatting
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+
+    // Breadcrumbs
+    "breadcrumbs.icons": false,
+
+    // Scroll
+    "editor.smoothScrolling": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.mouseWheelScrollSensitivity": 1.6,
+
+    // Terminal
+    "terminal.external.windowsExec": "C:\\Users\\miles\\AppData\\Local\\Programs\\Warp/warp.exe",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // "terminal.external.osxExec": "Warp.app",
+    // "terminal.integrated.defaultProfile.osx": "zsh"
+
+    // Sorting
+    "explorer.confirmDelete": false,
+    "editor.linkedEditing": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    "window.title": "${folderName}",
+    "editor.wordWrap": "wordWrapColumn",
+
+    // Experimental
+    // "editor.lineNumbers": "relative",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": false
+}
