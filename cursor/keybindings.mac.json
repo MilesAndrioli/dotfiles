@@ -32,6 +32,11 @@
         "command": "breadcrumbs.toggle"
     },
     {
+        "key": "cmd+shift+d",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
         "key": "shift+cmd+g",
         "command": "workbench.view.scm"
     }

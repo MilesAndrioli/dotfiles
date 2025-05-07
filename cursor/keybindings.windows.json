@@ -30,5 +30,10 @@
     {
         "key": "ctrl+b",
         "command": "breadcrumbs.toggle"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.selectHighlights",
+        "when": "editorFocus"
     }
 ]
