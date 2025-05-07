@@ -78,6 +78,7 @@
     "editor.wordWrap": "wordWrapColumn",
     "window.title": "${activeRepositoryBranchName} ${separator} ${rootNameShort} ${activeFolderMedium}",
     "git.confirmSync": false,
+    "git.autofetch": true,
 
     // Experimental
     // "editor.lineNumbers": "relative",
