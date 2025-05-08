@@ -18,7 +18,7 @@
     // Theme
     "workbench.colorTheme": "Monochrome Dark",
     "workbench.colorCustomizations": {
-        "[Monochrome Dark *]": {
+        "[Monochrome Dark*]": {
             "tab.activeBackground": "#191919",
             "tab.border": "#191919"
         }
@@ -85,6 +85,6 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "workbench.statusBar.visible": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "workbench.statusBar.visible": false
 }

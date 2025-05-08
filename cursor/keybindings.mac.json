@@ -39,5 +39,10 @@
     {
         "key": "shift+cmd+g",
         "command": "workbench.view.scm"
+    },
+    {
+        "key": "cmd+k cmd+s",
+        "command": "git.stageSelectedRanges",
+        "when": "!operationInProgress"
     }
 ]
