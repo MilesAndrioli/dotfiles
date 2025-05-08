@@ -100,5 +100,8 @@
     "breadcrumbs.enabled": false,
     "cursor.composer.shouldAllowCustomModes": true,
     "cursor.composer.shouldChimeAfterChatFinishes": true,
-    "cursor.chat.terminalShowHoverHint": false
+    "cursor.chat.terminalShowHoverHint": false,
+    "cursor.composer.shouldAutoAcceptDiffs": false,
+    "update.releaseTrack": "prerelease",
+    "cursor.composer.collapsePaneInputBoxPills": true
 }
