@@ -21,7 +21,7 @@
     },
     {
         "key": "ctrl+f3",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "command": "workbench.action.togglePanel"
     },
     {
         "key": "ctrl+f4",
@@ -35,5 +35,10 @@
         "key": "ctrl+shift+d",
         "command": "editor.action.selectHighlights",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "git.stageSelectedRanges",
+        "when": "!operationInProgress"
     }
 ]

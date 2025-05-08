@@ -100,7 +100,5 @@
     "breadcrumbs.enabled": false,
     "cursor.composer.shouldAllowCustomModes": true,
     "cursor.composer.shouldChimeAfterChatFinishes": true,
-    "cursor.composer.collapsePaneInputBoxPills": true,
-    "cursor.composer.shouldAutoScrollToBottom": false,
-    "diffEditor.ignoreTrimWhitespace": false
+    "cursor.chat.terminalShowHoverHint": false
 }

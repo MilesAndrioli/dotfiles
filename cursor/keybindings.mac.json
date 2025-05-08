@@ -21,7 +21,7 @@
     },
     {
         "key": "cmd+f3",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "command": "workbench.action.togglePanel"
     },
     {
         "key": "cmd+f4",
@@ -37,12 +37,12 @@
         "when": "editorFocus"
     },
     {
-        "key": "shift+cmd+g",
-        "command": "workbench.view.scm"
-    },
-    {
         "key": "cmd+k cmd+s",
         "command": "git.stageSelectedRanges",
         "when": "!operationInProgress"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm"
     }
 ]
