@@ -16,11 +16,23 @@
     // "workbench.iconTheme": "glyph.legacy",
 
     // Theme
-    "workbench.colorTheme": "Monochrome Dark",
+    "workbench.colorTheme": "Monochrome Dark Subtle",
     "workbench.colorCustomizations": {
-        "[Monochrome Dark*]": {
+        "[Monochrome Dark]": {
             "tab.activeBackground": "#191919",
             "tab.border": "#191919"
+        },
+        "[Monochrome Dark Subtle]": {
+            "tab.activeBackground": "#131b22",
+            "tab.border": "#131b22"
+        },
+        "[Monochrome Dark Cool Gray]": {
+            "tab.activeBackground": "#1a212f",
+            "tab.border": "#1a212f"
+        },
+        "[Monochrome Light]": {
+            "tab.activeBackground": "#e2e2e2",
+            "tab.border": "#e2e2e2"
         }
     },
 
@@ -86,5 +98,9 @@
         "asvetliakov.vscode-neovim": 1
     },
     "breadcrumbs.enabled": false,
-    "workbench.statusBar.visible": false
+    "cursor.composer.shouldAllowCustomModes": true,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.composer.collapsePaneInputBoxPills": true,
+    "cursor.composer.shouldAutoScrollToBottom": false,
+    "diffEditor.ignoreTrimWhitespace": false
 }
