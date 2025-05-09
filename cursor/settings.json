@@ -11,9 +11,7 @@
     // "editor.guides.bracketPairs": "active",
 
     // Icons
-    // "workbench.iconTheme": "material-icon-theme",
-    // "material-icon-theme.folders.theme": "none",
-    "workbench.iconTheme": "glyph.legacy",
+    "workbench.iconTheme": "symbols",
 
     // Theme
     "workbench.colorTheme": "Monochrome Dark Subtle",
@@ -67,9 +65,6 @@
     "[astro]": {
         "editor.defaultFormatter": "astro-build.astro-vscode"
     },
-
-    // Breadcrumbs
-    "breadcrumbs.icons": false,
 
     // Scroll
     "editor.smoothScrolling": true,
