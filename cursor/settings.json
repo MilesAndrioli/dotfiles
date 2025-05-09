@@ -83,12 +83,11 @@
     "window.menuBarVisibility": "toggle",
     "workbench.layoutControl.enabled": false,
     "editor.wordWrap": "wordWrapColumn",
-    "window.title": "${rootNameShort} ${separator} ${activeFolderMedium} ${separator} ${activeRepositoryBranchName}",
+    "window.title": "${rootNameShort}",
     "git.confirmSync": false,
     "git.autofetch": true,
 
     // Experimental
-    // "editor.lineNumbers": "relative",
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
@@ -99,5 +98,6 @@
     "update.releaseTrack": "prerelease",
     "cursor.composer.collapsePaneInputBoxPills": true,
     "breadcrumbs.enabled": false,
+    "git.decorations.enabled": false,
     "workbench.statusBar.visible": false
 }
