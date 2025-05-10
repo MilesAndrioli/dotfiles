@@ -16,7 +16,7 @@
     "breadcrumbs.symbolPath": "off",
 
     // Theme
-    "workbench.colorTheme": "Monochrome Dark Cool Gray",
+    "workbench.colorTheme": "Monochrome Dark Subtle",
     "workbench.colorCustomizations": {
         "[Monochrome Dark]": {
             "tab.activeBackground": "#191919",
