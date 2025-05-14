@@ -59,6 +59,8 @@
     // Cursor
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.multiCursorModifier": "ctrlCmd",
 
     // Formatting
     "editor.formatOnSave": true,
@@ -89,6 +91,8 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "git.decorations.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "workbench.tree.indent": 18,
 
     // Experimental
     "extensions.experimental.affinity": {
