@@ -7,6 +7,7 @@
     // Brackets
     "editor.matchBrackets": "never",
     "editor.guides.bracketPairs": "active",
+    // "editor.bracketPairColorization.enabled": false,
 
     // Icons
     "workbench.iconTheme": "symbols",
@@ -16,7 +17,7 @@
     "breadcrumbs.symbolPath": "off",
 
     // Theme
-    "workbench.colorTheme": "Monochrome Dark Subtle",
+    "workbench.colorTheme": "Monochrome Dark Cool Gray",
     "workbench.colorCustomizations": {
         "[Monochrome Dark]": {
             "tab.activeBackground": "#191919",
@@ -29,10 +30,6 @@
         "[Monochrome Dark Cool Gray]": {
             "tab.activeBackground": "#1a212f",
             "tab.border": "#1a212f"
-        },
-        "[Monochrome Light]": {
-            "tab.activeBackground": "#e2e2e2",
-            "tab.border": "#e2e2e2"
         }
     },
 
@@ -44,16 +41,64 @@
         }
     ],
 
+    // Theme Token Customizations
+    "editor.tokenColorCustomizations": {
+        "[Monochrome Dark *]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "entity.name.function",
+                        "support.function",
+                        "entity.name.tag"
+                    ],
+                    "settings": {
+                        "foreground": "#89dceb" // Sky
+                    }
+                },
+                {
+                    "scope": [
+                        "string",
+                        "punctuation.definition.string",
+                        "constant.numeric",
+                        "constant.language"
+                    ],
+                    "settings": {
+                        "foreground": "#b4befe" // Lavender
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                        "meta.definition.variable entity.name.variable"
+                    ],
+                    "settings": {
+                        "foreground": "#7f849c" // Overlay 1
+                    }
+                }
+            ]
+        }
+    },
+
     // Indent
+    // "indentRainbow.colors": [
+    //     "rgba(180, 180, 180, 0.02)",
+    //     "rgba(180, 180, 180, 0.04)",
+    //     "rgba(180, 180, 180, 0.06)",
+    //     "rgba(180, 180, 180, 0.08)",
+    //     "rgba(180, 180, 180, 0.10)",
+    //     "rgba(180, 180, 180, 0.12)",
+    //     "rgba(180, 180, 180, 0.14)",
+    //     "rgba(180, 180, 180, 0.16)"
+    // ],
     "indentRainbow.colors": [
-        "rgba(180, 180, 180, 0.02)",
-        "rgba(180, 180, 180, 0.04)",
-        "rgba(180, 180, 180, 0.06)",
-        "rgba(180, 180, 180, 0.08)",
-        "rgba(180, 180, 180, 0.10)",
-        "rgba(180, 180, 180, 0.12)",
-        "rgba(180, 180, 180, 0.14)",
-        "rgba(180, 180, 180, 0.16)"
+        "rgba(116, 199, 236, 0.02)",
+        "rgba(116, 199, 236, 0.04)",
+        "rgba(116, 199, 236, 0.06)",
+        "rgba(116, 199, 236, 0.08)",
+        "rgba(116, 199, 236, 0.10)",
+        "rgba(116, 199, 236, 0.12)",
+        "rgba(116, 199, 236, 0.14)",
+        "rgba(116, 199, 236, 0.16)"
     ],
 
     // Cursor
@@ -99,11 +144,8 @@
         "asvetliakov.vscode-neovim": 1
     },
     "cursor.composer.shouldAllowCustomModes": true,
-    "cursor.composer.shouldChimeAfterChatFinishes": true,
     "cursor.chat.terminalShowHoverHint": false,
-    "cursor.composer.shouldAutoAcceptDiffs": false,
     "update.releaseTrack": "prerelease",
-    "cursor.composer.collapsePaneInputBoxPills": true,
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false
 }
