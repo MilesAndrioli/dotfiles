@@ -46,10 +46,6 @@
         "command": "workbench.files.action.collapseExplorerFolders"
     },
     {
-        "key": "cmd+i",
-        "command": "-composer.startComposerPrompt"
-    },
-    {
         "key": "shift+cmd+g",
         "command": "workbench.view.scm"
     }

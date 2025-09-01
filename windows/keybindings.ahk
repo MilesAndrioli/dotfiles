@@ -1,7 +1,6 @@
 ; --------- GLOBAL REMAPS ---------
 
 <^Tab::AltTab             ; Ctrl+Tab → Alt+Tab (switch between apps)
-<^<+q::!F4                ; Ctrl+Shift+Q → Alt+F4 (close window)
 
 <^1::#^Left               ; Ctrl+1 → Win+Ctrl+Left (move virtual desktop left)
 <^2::#^Right              ; Ctrl+2 → Win+Ctrl+Right (move virtual desktop right)
