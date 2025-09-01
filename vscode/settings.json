@@ -142,5 +142,6 @@
     "editor.minimap.enabled": false,
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false,
-    "workbench.tips.enabled": false
+    "workbench.tips.enabled": false,
+    "git.confirmSync": false
 }
