@@ -123,27 +123,23 @@
     // "terminal.integrated.defaultProfile.osx": "Git Bash",
 
     // Sorting
-    "explorer.confirmDelete": false,
-    "editor.linkedEditing": true,
+    // "explorer.confirmDelete": false,
+    // "editor.linkedEditing": true,
     "workbench.layoutControl.enabled": false,
     "editor.wordWrap": "wordWrapColumn",
     "window.title": "${rootNameShort}",
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "git.decorations.enabled": false,
-    "editor.renderLineHighlight": "all",
-    "workbench.tree.indent": 18,
+    // "git.confirmSync": false,
+    // "git.autofetch": true,
+    // "git.decorations.enabled": false,
+    // "editor.renderLineHighlight": "all",
 
     // Experimental
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
-    "update.releaseTrack": "prerelease",
     "workbench.colorTheme": "Monochrome Dark Subtle",
     "font-preview.defaultTab": "Waterfall",
-    "workbench.editorAssociations": {
-        "*.svg": "default"
-    },
-    "window.menuBarVisibility": "compact",
-    "workbench.statusBar.visible": false
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false
 }

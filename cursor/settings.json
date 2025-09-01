@@ -132,7 +132,6 @@
     "git.autofetch": true,
     "git.decorations.enabled": false,
     "editor.renderLineHighlight": "all",
-    "workbench.tree.indent": 18,
 
     // Experimental
     "extensions.experimental.affinity": {
@@ -144,9 +143,6 @@
     "cursor.diffs.useCharacterLevelDiffs": true,
     "cursor.terminal.usePreviewBox": true,
     "font-preview.defaultTab": "Waterfall",
-    "workbench.editorAssociations": {
-        "*.svg": "default"
-    },
     "breadcrumbs.enabled": false,
     "window.menuBarVisibility": "compact",
     "workbench.statusBar.visible": false
