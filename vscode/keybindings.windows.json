@@ -44,5 +44,9 @@
     {
         "key": "ctrl+k ctrl+c",
         "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "workbench.view.explorer"
     }
 ]
