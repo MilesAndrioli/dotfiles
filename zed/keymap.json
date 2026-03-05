@@ -1,0 +1,11 @@
+[
+    {
+        "bindings": {
+            "ctrl-q": "pane::ActivatePreviousItem",
+            "ctrl-e": "pane::ActivateNextItem",
+            "ctrl-f1": "workspace::ToggleLeftDock",
+            "ctrl-f2": "workspace::ToggleRightDock",
+            "ctrl-f3": "workspace::ToggleBottomDock",
+        },
+    },
+]

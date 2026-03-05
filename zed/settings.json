@@ -1,0 +1,122 @@
+{
+    "wsl_connections": [
+        {
+            "distro_name": "Ubuntu",
+            "user": null,
+            "projects": [],
+        },
+    ],
+
+    "disable_ai": true,
+
+    "ui_font_size": 14,
+    "buffer_font_size": 14,
+    "agent_buffer_font_size": 14,
+    "buffer_font_features": {
+        "calt": true,
+    },
+    "buffer_line_height": {
+        "custom": 2,
+    },
+
+    "theme": "Gruvbox Dark Soft",
+    "icon_theme": "Soft Charmed Icons",
+    "theme_overrides": {
+        "Aura Soft Dark": {
+            "editor.document_highlight.read_background": "#0000",
+            "border": "#41345D",
+            "border.variant": "#41345D",
+            "accents": ["#41345D"],
+            "panel.focused_border": "#2F2B46",
+            "panel.background": "#21202E",
+            "title_bar.background": "#21202E",
+            "tab_bar.background": "#21202E",
+            "tab.inactive_background": "#21202E",
+
+            "syntax": {
+                "comment": {
+                    "font_style": "italic",
+                },
+            },
+        },
+        "Catppuccin Mocha (Blur) [Heavy]": {
+            "editor.document_highlight.read_background": "#0000",
+            "border": "#443E57",
+            "border.variant": "#443E57",
+            "accents": ["#443E57"],
+            "tab.active_background": "#443E57",
+        },
+        "Catppuccin Espresso (Blur)": {
+            "editor.document_highlight.read_background": "#0000",
+            "border": "#2F3742",
+            "border.variant": "#2F3742",
+            "accents": ["#2F3742"],
+            "tab.active_background": "#2F3742",
+        },
+    },
+
+    "tab_size": 4,
+    "current_line_highlight": "none",
+    "scroll_beyond_last_line": "vertical_scroll_margin",
+    "show_whitespaces": "none",
+    "indent_guides": {
+        "enabled": false,
+        "coloring": "indent_aware",
+    },
+    "extend_comment_on_newline": false,
+    "multi_cursor_modifier": "cmd_or_ctrl",
+
+    "title_bar": {
+        "show_project_items": false,
+        "show_branch_icon": true,
+        "show_user_menu": false,
+        "show_sign_in": false,
+    },
+    "toolbar": {
+        "breadcrumbs": false,
+        "quick_actions": false,
+    },
+    "tab_bar": {
+        "show_nav_history_buttons": false,
+        "show_tab_bar_buttons": false,
+    },
+    "tabs": {
+        "file_icons": true,
+    },
+    "status_bar": {
+        "experimental.show": false,
+    },
+    "scrollbar": {
+        "show": "never",
+    },
+    "gutter": {
+        "line_numbers": false,
+        "folds": false,
+    },
+
+    "project_panel": {
+        "hide_root": true,
+        "auto_fold_dirs": false,
+        // "dock": "right",
+        // "git_status": false,
+        "indent_guides": {
+            "show": "never",
+        },
+    },
+
+    "git": {
+        // "git_gutter": "hide",
+        "inline_blame": {
+            "enabled": false,
+        },
+    },
+
+    "inline_code_actions": false,
+    "show_edit_predictions": false,
+    "soft_wrap": "editor_width",
+    "seed_search_query_from_cursor": "selection",
+    // "seed_search_query_from_cursor": "never",
+    // "show_completions_on_input": false,
+    // "show_completion_documentation": false,
+    // "hover_popover_enabled": false,
+}
