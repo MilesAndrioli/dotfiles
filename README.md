@@ -32,4 +32,3 @@ Personal dotfiles to keep my development environment consistent across machines.
 ## 🧪 Future Improvements
 
 -   Add a script to detect the OS and symlink automatically.
--   Handle extension syncing.
