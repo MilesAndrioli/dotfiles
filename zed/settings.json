@@ -1,12 +1,4 @@
 {
-    "wsl_connections": [
-        {
-            "distro_name": "Ubuntu",
-            "user": null,
-            "projects": [],
-        },
-    ],
-
     "disable_ai": true,
 
     "ui_font_size": 14,
