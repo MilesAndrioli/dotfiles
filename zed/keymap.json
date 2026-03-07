@@ -6,6 +6,7 @@
             "ctrl-f1": "workspace::ToggleLeftDock",
             "ctrl-f2": "workspace::ToggleRightDock",
             "ctrl-f3": "workspace::ToggleBottomDock",
+            "ctrl-r": "file_finder::Toggle",
         },
     },
 ]
