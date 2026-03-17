@@ -43,3 +43,9 @@ LCtrl & Tab::AltTab
 ^q::Send "^+{Tab}"
 ^e::Send "^{Tab}"
 #HotIf
+
+; ── Line Jumpers ───────────
+!Left::Send "{Home}"
+!Right::Send "{End}"
++!Left::Send "+{Home}"
++!Right::Send "+{End}"
