@@ -26,6 +26,13 @@ config.keys = {
     { key = 'w', mods = 'CTRL', action = wezterm.action.CloseCurrentTab { confirm = false } },
     { key = 'e', mods = 'CTRL', action = wezterm.action.ActivateTabRelative(1) },
     { key = 'q', mods = 'CTRL', action = wezterm.action.ActivateTabRelative(-1) },
+
+    { key = 'v', mods = 'CTRL', action = wezterm.action.PasteFrom 'Clipboard' },
+    {
+        key = 'Enter',
+        mods = 'SHIFT',
+        action = wezterm.action.SendString '\n'
+    },
 }
 
 return config
