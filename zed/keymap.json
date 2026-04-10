@@ -7,6 +7,7 @@
             "ctrl-f2": "workspace::ToggleRightDock",
             "ctrl-f3": "workspace::ToggleBottomDock",
             "ctrl-r": "file_finder::Toggle",
+            "ctrl-shift-r": "command_palette::Toggle",
         },
     },
 ]
