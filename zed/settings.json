@@ -1,14 +1,19 @@
 {
+    "wsl_connections": [
+        {
+            "distro_name": "Ubuntu",
+            "user": null,
+            "projects": [],
+        },
+    ],
     "disable_ai": true,
 
     "auto_install_extensions": {
         "aura-theme": true,
         "catppuccin-blur": true,
         "charmed-icons": true,
-        "astro": true,
         "html": true,
-        "lua": true,
-        "toml": true,
+        "astro": true,
         "glsl": true,
     },
 
