@@ -1,6 +1,17 @@
 {
     "disable_ai": true,
 
+    "auto_install_extensions": {
+        "aura-theme": true,
+        "catppuccin-blur": true,
+        "charmed-icons": true,
+        "astro": true,
+        "html": true,
+        "lua": true,
+        "toml": true
+        "glsl": true,
+    },
+
     "ui_font_family": "PP Neue Montreal",
     "buffer_font_family": "MonoLisa",
     "buffer_font_features": {
