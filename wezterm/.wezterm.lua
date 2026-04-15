@@ -1,7 +1,7 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
-config.default_prog = { 'wsl.exe', '-d', 'Ubuntu', '--cd', '~' }
+config.default_domain = 'WSL:Ubuntu'
 
 config.win32_system_backdrop = 'Acrylic'
 config.window_background_opacity = 0.6
