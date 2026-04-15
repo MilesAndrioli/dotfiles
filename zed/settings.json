@@ -67,7 +67,7 @@
     "scroll_beyond_last_line": "vertical_scroll_margin",
     "show_whitespaces": "none",
     "indent_guides": {
-        // "enabled": false,
+        "enabled": false,
         "coloring": "indent_aware"
     },
     "extend_comment_on_newline": false,
@@ -91,8 +91,8 @@
         "file_icons": true
     },
     "status_bar": {
-        // "experimental.show": false,
-        "line_endings_button": true
+        "experimental.show": false
+        // "line_endings_button": true
     },
     "scrollbar": {
         "show": "never"
