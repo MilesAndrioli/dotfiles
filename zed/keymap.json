@@ -13,7 +13,7 @@
             "ctrl-r": "workspace::ToggleZoom",
         },
     },
-    // tmux creation
+    // pane creation
     {
         "context": "FileFinder > Picker > Editor",
         "bindings": {
