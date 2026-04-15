@@ -20,10 +20,13 @@
             "ctrl-r": "workspace::ToggleZoom",
         },
     },
+
     // pane creation
     {
         "context": "FileFinder > Picker > Editor",
         "bindings": {
+            "ctrl-w": "pane::SplitUp",
+            "ctrl-a": "pane::SplitLeft",
             "ctrl-s": "pane::SplitDown",
             "ctrl-d": "pane::SplitRight",
         },
