@@ -3,6 +3,7 @@
         "unbind": {
             "ctrl-i": "editor::ShowSignatureHelp",
             "ctrl-l": "editor::SelectLine",
+            // "ctrl-q": "zed::Quit",
         },
     },
     {
@@ -35,6 +36,9 @@
             "ctrl-j": "workspace::ActivatePaneLeft",
             "ctrl-k": "workspace::ActivatePaneDown",
             "ctrl-l": "workspace::ActivatePaneRight",
+
+            // "ctrl-q": "workspace::ActivatePreviousPane",
+            // "ctrl-e": "workspace::ActivateNextPane",
         },
     },
 ]
