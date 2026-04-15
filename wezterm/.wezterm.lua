@@ -17,36 +17,7 @@ config.line_height = 1.1
 
 -- Keybinds
 config.keys = {
-    {
-        key = 'v',
-        mods = 'CTRL',
-        action = wezterm.action.PasteFrom 'Clipboard',
-    },
-    {
-        key = 'Enter',
-        mods = 'SHIFT',
-        action = wezterm.action.SendString '\n'
-    },
-    {
-        key = 't',
-        mods = 'CTRL',
-        action = wezterm.action.SpawnTab 'CurrentPaneDomain',
-    },
-    {
-        key = 'w',
-        mods = 'CTRL',
-        action = wezterm.action.CloseCurrentTab { confirm = false },
-    },
-    {
-        key = 'e',
-        mods = 'CTRL',
-        action = wezterm.action.ActivateTabRelative(1)
-    },
-    {
-        key = 'q',
-        mods = 'CTRL',
-        action = wezterm.action.ActivateTabRelative(-1),
-    },
+    { key = 'v', mods = 'CTRL', action = wezterm.action.PasteFrom 'Clipboard' },
 }
 
 return config
