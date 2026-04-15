@@ -2,9 +2,9 @@
     {
         "bindings": {
             // dock toggling
-            "ctrl-f1": "workspace::ToggleLeftDock",
-            "ctrl-f2": "workspace::ToggleRightDock",
-            "ctrl-f3": "workspace::ToggleBottomDock",
+            "ctrl-shift-g": "workspace::ToggleLeftDock",
+            "ctrl-shift-e": "workspace::ToggleRightDock",
+            "ctrl-shift-`": "workspace::ToggleBottomDock",
 
             // tab navigation
             "ctrl-q": "pane::ActivatePreviousItem",
