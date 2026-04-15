@@ -1,44 +1,32 @@
 [
     {
+        // freeing keybinds
         "unbind": {
             "ctrl-i": "editor::ShowSignatureHelp",
             "ctrl-l": "editor::SelectLine",
-            // "ctrl-q": "zed::Quit",
+            "ctrl-shift-e": "pane::RevealInProjectPanel",
         },
     },
     {
         "bindings": {
+            // dock toggling
             "ctrl-f1": "workspace::ToggleLeftDock",
             "ctrl-f2": "workspace::ToggleRightDock",
             "ctrl-f3": "workspace::ToggleBottomDock",
 
+            // tab navigation
             "ctrl-q": "pane::ActivatePreviousItem",
             "ctrl-e": "pane::ActivateNextItem",
 
-            "ctrl-enter": "workspace::ToggleZoom",
+            "ctrl-r": "workspace::ToggleZoom",
         },
     },
     // tmux creation
     {
         "context": "FileFinder > Picker > Editor",
         "bindings": {
-            "ctrl-i": "pane::SplitUp",
-            "ctrl-j": "pane::SplitLeft",
-            "ctrl-k": "pane::SplitDown",
-            "ctrl-l": "pane::SplitRight",
-        },
-    },
-    // tmux movement
-    {
-        "context": "Workspace",
-        "bindings": {
-            "ctrl-i": "workspace::ActivatePaneUp",
-            "ctrl-j": "workspace::ActivatePaneLeft",
-            "ctrl-k": "workspace::ActivatePaneDown",
-            "ctrl-l": "workspace::ActivatePaneRight",
-
-            // "ctrl-q": "workspace::ActivatePreviousPane",
-            // "ctrl-e": "workspace::ActivateNextPane",
+            "ctrl-s": "pane::SplitDown",
+            "ctrl-d": "pane::SplitRight",
         },
     },
 ]
