@@ -14,10 +14,10 @@ config.font_size = 10
 config.line_height = 1.1
 
 config.window_padding = {
-    left = '1cell',
-    right = '1cell',
-    top = '0.5cell',
-    bottom = '0.5cell',
+    top = '1cell',
+    bottom = '1cell',
+    left = '2cell',
+    right = '2cell',
 }
 
 config.keys = {
