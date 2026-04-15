@@ -1,15 +1,22 @@
 [
     {
         "bindings": {
-            // dock toggling
+            // toggle git
             "ctrl-shift-g": "workspace::ToggleLeftDock",
+
+            // toggle explorer
             "ctrl-shift-e": "workspace::ToggleRightDock",
+
+            // toggle terminal
             "ctrl-shift-`": "workspace::ToggleBottomDock",
 
-            // tab navigation
+            // prev tab
             "ctrl-q": "pane::ActivatePreviousItem",
+
+            // next tab
             "ctrl-e": "pane::ActivateNextItem",
 
+            // zoom
             "ctrl-r": "workspace::ToggleZoom",
         },
     },
