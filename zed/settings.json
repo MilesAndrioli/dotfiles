@@ -97,7 +97,7 @@
         "show": "never"
     },
     "gutter": {
-        // "line_numbers": false,
+        "line_numbers": false,
         "folds": false
     },
 
