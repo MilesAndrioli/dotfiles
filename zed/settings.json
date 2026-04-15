@@ -91,8 +91,8 @@
         "file_icons": true
     },
     "status_bar": {
-        // "experimental.show": false
-        "line_endings_button": true
+        "experimental.show": false
+        // "line_endings_button": true
     },
     "scrollbar": {
         "show": "never"
