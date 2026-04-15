@@ -1,13 +1,5 @@
 [
     {
-        // freeing keybinds
-        "unbind": {
-            "ctrl-i": "editor::ShowSignatureHelp",
-            "ctrl-l": "editor::SelectLine",
-            "ctrl-shift-e": "pane::RevealInProjectPanel",
-        },
-    },
-    {
         "bindings": {
             // dock toggling
             "ctrl-f1": "workspace::ToggleLeftDock",
