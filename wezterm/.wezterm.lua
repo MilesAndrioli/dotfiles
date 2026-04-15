@@ -15,7 +15,7 @@ config.font = wezterm.font 'MonoLisa'
 config.font_size = 10
 config.line_height = 1.1
 
--- Keybinds
+-- keybinds
 config.keys = {
     -- easier paste
     { key = 'v',     mods = 'CTRL',  action = wezterm.action.PasteFrom 'Clipboard' },
