@@ -1,7 +1,3 @@
 [user]
     name = Miles
     email = 98649838+MilesAndrioli@users.noreply.github.com
-
-[core]
-    autocrlf = false
-    eol = lf
