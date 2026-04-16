@@ -9,11 +9,20 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# pnpm
+export PNPM_HOME="/home/miles/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
 source $ZSH/oh-my-zsh.sh
 
 # ALIASES
 alias reload="exec zsh"
 alias c="clear"
+alias pd="pnpm dev"
 
 # eza
 alias t="eza -a --tree --icons --level=1 --group-directories-first"
