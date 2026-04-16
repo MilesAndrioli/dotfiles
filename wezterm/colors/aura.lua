@@ -6,7 +6,6 @@ return {
     cursor_fg = "#21202e",
     cursor_border = "#a277ff",
 
-    -- Kept the alpha (7f) so syntax highlighting shows through selections
     selection_bg = "#3d375e",
     selection_fg = "#edecee",
 
@@ -16,25 +15,25 @@ return {
     compose_cursor = "#ffca85",
 
     ansi = {
-        "#21202e", -- black
-        "#ff6767", -- red
-        "#61ffca", -- green
-        "#ffca85", -- yellow
-        "#a277ff", -- blue
-        "#f694ff", -- magenta
-        "#82e2ff", -- cyan
-        "#cdccce", -- white
+        "#21202e",
+        "#ff6767",
+        "#61ffca",
+        "#ffca85",
+        "#a277ff",
+        "#f694ff",
+        "#82e2ff",
+        "#cdccce",
     },
 
     brights = {
-        "#444444", -- bright black
-        "#ff6767", -- bright red (corrected)
-        "#61ffca", -- bright green
-        "#ffca85", -- bright yellow
-        "#a277ff", -- bright blue
-        "#f694ff", -- bright magenta
-        "#82e2ff", -- bright cyan
-        "#edecee", -- bright white
+        "#444444",
+        "#ff6767",
+        "#61ffca",
+        "#ffca85",
+        "#a277ff",
+        "#f694ff",
+        "#82e2ff",
+        "#edecee",
     },
 
     tab_bar = {
