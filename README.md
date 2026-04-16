@@ -13,12 +13,12 @@ ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
 
 ```bash
 # Git
-New-Item -ItemType SymbolicLink -Path "C:\Users\miles\.gitconfig" -Target "C:\Users\miles\dotfiles\git\.gitconfig"
+New-Item -ItemType SymbolicLink -Path "$HOME\.gitconfig" -Target "$HOME\dotfiles\git\.gitconfig"
 
 # WezTerm
-New-Item -ItemType SymbolicLink -Path "C:\Users\miles\.wezterm.lua" -Target "C:\Users\miles\dotfiles\wezterm\.wezterm.lua"
+New-Item -ItemType SymbolicLink -Path "$HOME\.config\wezterm" -Target "$HOME\dotfiles\wezterm"
 
 # Zed
-New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Zed\settings.json" -Target "C:\Users\miles\dotfiles\zed\settings.json"
-New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Zed\keymap.json" -Target "C:\Users\miles\dotfiles\zed\keymap.json"
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Zed\settings.json" -Target "$HOME\dotfiles\zed\settings.json"
+New-Item -ItemType SymbolicLink -Path "$env:APPDATA\Zed\keymap.json" -Target "$HOME\dotfiles\zed\keymap.json"
 ```
