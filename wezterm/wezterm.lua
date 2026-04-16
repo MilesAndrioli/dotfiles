@@ -8,7 +8,7 @@ config.win32_system_backdrop = 'Acrylic'
 config.window_background_opacity = 0.7
 config.colors = require 'colors.aura'
 
--- config.window_decorations = "RESIZE"
+config.window_decorations = "RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
 
 -- typography
