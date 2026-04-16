@@ -35,34 +35,4 @@ return {
         "#82e2ff",
         "#edecee",
     },
-
-    tab_bar = {
-        background = "#1c1b22",
-
-        active_tab = {
-            bg_color = "#21202e",
-            fg_color = "#edecee",
-            intensity = "Normal",
-        },
-
-        inactive_tab = {
-            bg_color = "#1c1b22",
-            fg_color = "#6d6d6d",
-        },
-
-        inactive_tab_hover = {
-            bg_color = "#2e2b38",
-            fg_color = "#edecee",
-        },
-
-        new_tab = {
-            bg_color = "#1c1b22",
-            fg_color = "#6d6d6d",
-        },
-
-        new_tab_hover = {
-            bg_color = "#2e2b38",
-            fg_color = "#61ffca",
-        },
-    },
 }
