@@ -26,7 +26,11 @@
         "custom": 2,
     },
 
-    "theme": "Aura Soft Dark",
+    "soft_wrap": "bounded",
+    "show_wrap_guides": false,
+    // "preferred_line_length": 100,
+
+    "theme": "Catppuccin Mocha (Blur)",
     "icon_theme": "Soft Charmed Icons",
     "theme_overrides": {
         "Aura Soft Dark": {
@@ -120,6 +124,8 @@
             "enabled": false,
         },
     },
+
+    // "preferred_line_length": 100,
 
     "inline_code_actions": false,
     "show_edit_predictions": false,
