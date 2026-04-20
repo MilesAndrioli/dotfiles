@@ -57,15 +57,11 @@
         "Catppuccin Mocha (Blur)": {
             "editor.document_highlight.read_background": "#0000",
             "border": "#443E57",
-            "border.variant": "#443E57",
-            "accents": ["#443E57"],
             "tab.active_background": "#443E57",
         },
         "Catppuccin Espresso (Blur)": {
             "editor.document_highlight.read_background": "#0000",
             "border": "#2F3742",
-            "border.variant": "#2F3742",
-            "accents": ["#2F3742"],
             "tab.active_background": "#2F3742",
         },
     },
