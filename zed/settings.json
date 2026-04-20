@@ -108,12 +108,10 @@
         },
     },
 
+    // approved, needs category
     "inline_code_actions": false,
-    "show_edit_predictions": false,
-    "soft_wrap": "editor_width",
-    "seed_search_query_from_cursor": "selection",
-    // "seed_search_query_from_cursor": "never",
-    // "show_completions_on_input": false,
-    // "show_completion_documentation": false,
-    // "hover_popover_enabled": false,
+    "show_completion_documentation": false,
+    "hover_popover_enabled": false,
+
+    // experimental
 }
