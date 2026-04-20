@@ -22,12 +22,23 @@
         "custom": 2,
     },
 
+    // editor
+    "tab_size": 4,
     "soft_wrap": "bounded",
-    "show_wrap_guides": false,
     // "preferred_line_length": 100,
+    "show_wrap_guides": false,
+    "multi_cursor_modifier": "cmd_or_ctrl",
+    "scroll_beyond_last_line": "vertical_scroll_margin",
+    "show_whitespaces": "none",
+    "indent_guides": {
+        "enabled": false,
+    },
+    "seed_search_query_from_cursor": "selection",
 
+    // theme
     "icon_theme": "Soft Charmed Icons",
     "theme": "Catppuccin Mocha (Blur)",
+
     "theme_overrides": {
         "Aura Soft Dark": {
             "editor.document_highlight.read_background": "#0000",
