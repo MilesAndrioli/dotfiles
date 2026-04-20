@@ -125,8 +125,6 @@
         },
     },
 
-    // "preferred_line_length": 100,
-
     "inline_code_actions": false,
     "show_edit_predictions": false,
     "soft_wrap": "editor_width",
