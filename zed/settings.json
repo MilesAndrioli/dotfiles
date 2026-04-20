@@ -78,8 +78,7 @@
     "multi_cursor_modifier": "cmd_or_ctrl",
 
     "title_bar": {
-        "show_project_items": false,
-        "show_branch_icon": true,
+        // "show_project_items": false,
         "show_user_menu": false,
         "show_sign_in": false,
     },
