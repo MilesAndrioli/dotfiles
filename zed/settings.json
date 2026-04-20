@@ -1,13 +1,8 @@
 {
-    "wsl_connections": [
-        {
-            "distro_name": "Ubuntu",
-            "user": null,
-            "projects": [],
-        },
-    ],
+    // core
     "disable_ai": true,
 
+    // extensions
     "auto_install_extensions": {
         "aura-theme": true,
         "catppuccin-blur": true,
@@ -17,8 +12,9 @@
         "glsl": true,
     },
 
-    "ui_font_family": "PP Neue Montreal",
-    "buffer_font_family": "MonoLisa",
+    // typography
+    "ui_font_family": "Inter",
+    "ui_font_size": 15,
     "buffer_font_features": {
         "calt": true,
     },
@@ -30,8 +26,8 @@
     "show_wrap_guides": false,
     // "preferred_line_length": 100,
 
-    "theme": "Catppuccin Mocha (Blur)",
     "icon_theme": "Soft Charmed Icons",
+    "theme": "Catppuccin Mocha (Blur)",
     "theme_overrides": {
         "Aura Soft Dark": {
             "editor.document_highlight.read_background": "#0000",
