@@ -1,0 +1,6 @@
+Copy: R=L
+Preamp: 6 dB
+VSTPlugin: Library "C:\Program Files\VSTPlugins\rnnoise_stereo.dll" ChunkData "VkMyIdEAAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8Uk5Ob2lzZT48UEFSQU0gaWQ9InZhZF9ncmFjZV9wZXJpb2QiIHZhbHVlPSIyMC4wIi8+PFBBUkFNIGlkPSJ2YWRfcmV0cm9hY3RpdmVfZ3JhY2VfcGVyaW9kIiB2YWx1ZT0iMC4wIi8+PFBBUkFNIGlkPSJ2YWRfdGhyZXNob2xkIiB2YWx1ZT0iMC41OTk5OTk5NjQyMzcyMTMxIi8+PC9STk5vaXNlPgA="
+VSTPlugin: Library "C:\Program Files\VSTPlugins\ReaPlugs\reaeq-standalone.dll" ChunkData "IQAAAAMAAAAAAAAAAQAAAAAAAAAAQG9Aiqvo6n2n5j8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AtDn2EiYp6j8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAQK9A2Qph6RoE8z8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAA=="
+VSTPlugin: Library "C:\Program Files\VSTPlugins\ReaPlugs\reacomp-standalone.dll" Attack 0.006 Hipass 0 Thresh 0.177828 Release 0.03 Ratio 0.0252525 Pre-comp 0 resvd 0 Lowpass 1 SignIn 0 AudIn 0 Dry 3.16228e-08 Wet 1.41254 PreviewF 0 AutoMkUp 0 "RMS size" 0.005 Knee 0 AutoRel 0 ClsAttk 1 AntiAls 0
+VSTPlugin: Library "C:\Program Files\VSTPlugins\LoudMax64.dll" Thresh 0.934091 Output 0.934091 "Fader Link" 0 "ISP Detection" 0 "Large GUI" 0
