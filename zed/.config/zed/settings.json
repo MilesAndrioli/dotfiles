@@ -1,5 +1,6 @@
 {
     // core
+    "cli_default_open_behavior": "new_window",
     "disable_ai": true,
 
     // extensions
@@ -37,8 +38,16 @@
     "seed_search_query_from_cursor": "selection",
 
     // theme
-    "icon_theme": "Soft Charmed Icons",
-    "theme": "Catppuccin Mocha (Blur)",
+    "icon_theme": {
+        "mode": "light",
+        "light": "Soft Charmed Icons",
+        "dark": "Soft Charmed Icons"
+    },
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Aura Soft Dark"
+    },
 
     "theme_overrides": {
         "Aura Soft Dark": {
