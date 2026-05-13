@@ -13,15 +13,15 @@
         }
 
         window-open {
-            duration-ms 200
-            curve "ease-out-quad"
+            duration-ms 400
+            curve "ease-out-cubic"
         }
         window-close {
-            duration-ms 200
+            duration-ms 400
             curve "ease-out-cubic"
         }
         screenshot-ui-open {
-            duration-ms 300
-            curve "ease-out-quad"
+            duration-ms 400
+            curve "ease-out-cubic"
         }
     }
