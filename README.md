@@ -11,6 +11,7 @@ sudo pacman -S stow
 cd dotfiles
 rm -rf .config/niri
 stow niri
+```
 
 ## Windows 11 Setup
 **PowerShell as admin**:
