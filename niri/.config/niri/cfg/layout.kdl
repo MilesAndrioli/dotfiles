@@ -1,10 +1,7 @@
     layout {
-        background-color "transparent" // <- needed for noctalia-shell to set wallpaper
+        background-color "transparent"
 
         gaps 12
-
-        center-focused-column "on-overflow"
-        always-center-single-column
 
         preset-column-widths {
             proportion 0.25
