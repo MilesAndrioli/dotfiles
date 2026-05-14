@@ -39,14 +39,12 @@
 
     // theme
     "icon_theme": {
-        "mode": "light",
-        "light": "Soft Charmed Icons",
-        "dark": "Soft Charmed Icons"
+        "light": "Zed (default)",
+        "dark": "Soft Charmed Icons",
     },
     "theme": {
-        "mode": "system",
-        "light": "One Light",
-        "dark": "Aura Soft Dark"
+        "light": "Catppuccin Late (Blur)",
+        "dark": "Catppuccin Espresso (Blur) [Light]",
     },
 
     "theme_overrides": {
