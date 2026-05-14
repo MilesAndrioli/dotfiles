@@ -68,10 +68,10 @@
             "border": "#443E57",
             "tab.active_background": "#443E57",
         },
-        "Catppuccin Espresso (Blur)": {
+        "Catppuccin Espresso (Blur) [Light]": {
             "editor.document_highlight.read_background": "#0000",
-            "border": "#2F3742",
-            "tab.active_background": "#2F3742",
+            "border": "#444",
+            "tab.active_background": "#444",
         },
     },
 
