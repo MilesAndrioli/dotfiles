@@ -13,8 +13,6 @@
             proportion 1.0
         }
 
-        struts {}
-
         focus-ring {
             off
         }
