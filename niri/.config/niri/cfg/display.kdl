@@ -1,6 +1,12 @@
 output "HP Inc. HP X34 6CM1380CYV" {
     mode "3440x1440@165.000"
     position x=0 y=0
+
+    layout {
+        center-focused-column "always"
+        // center-focused-column "on-overflow"
+        // always-center-single-column
+    }
 }
 
 output "Dell Inc. DELL S2721DGF 73SBP83" {
