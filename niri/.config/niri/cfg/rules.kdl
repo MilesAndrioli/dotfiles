@@ -20,3 +20,19 @@
         match namespace="^noctalia-wallpaper*"
         place-within-backdrop true
     }
+
+    // Blur Setup
+    blur {
+        passes 4
+        offset 4
+    }
+
+    // Apply Blur
+    window-rule {
+        match app-id="Alacritty"
+        match app-id="dev.zed.Zed"
+
+        background-effect {
+            blur true
+        }
+    }
