@@ -1,12 +1,16 @@
-## Linux / WSL2 Setup
-
+## Linux Setup
 ```bash
-# Zsh
-ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+ssh-keygen -t ed25519
+cat .ssh/id_ed25519.pub
 
-# Git
-ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
-```
+ssh -T git@github.com
+git clone git@github.com:MilesAndrioli/dotfiles.git
+
+sudo pacman -S stow
+
+cd dotfiles
+rm -rf .config/niri
+stow niri
 
 ## Windows 11 Setup
 **PowerShell as admin**:
