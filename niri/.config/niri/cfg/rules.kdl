@@ -29,9 +29,6 @@
 
     // Apply Blur
     window-rule {
-        match app-id="Alacritty"
-        match app-id="dev.zed.Zed"
-
         background-effect {
             blur true
             xray false
