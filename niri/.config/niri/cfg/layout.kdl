@@ -1,6 +1,5 @@
     layout {
         background-color "transparent"
-
         gaps 12
 
         preset-column-widths {
