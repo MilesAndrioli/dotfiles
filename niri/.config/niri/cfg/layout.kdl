@@ -12,11 +12,4 @@
         focus-ring {
             off
         }
-
-        border {
-            on
-            width 1
-            active-color "#888"
-            inactive-color "#4D4D4D"
-        }
     }
