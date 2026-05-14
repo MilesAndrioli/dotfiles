@@ -70,8 +70,8 @@
         },
         "Catppuccin Espresso (Blur) [Light]": {
             "editor.document_highlight.read_background": "#0000",
-            "border": "#444",
-            "tab.active_background": "#444",
+            "border": "#44444480",
+            "tab.active_background": "#44444480",
         },
     },
 
