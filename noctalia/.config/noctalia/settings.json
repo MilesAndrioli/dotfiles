@@ -67,7 +67,7 @@
         "mouseWheelAction": "volume",
         "mouseWheelWrap": true,
         "outerCorners": true,
-        "position": "bottom",
+        "position": "top",
         "reverseScroll": false,
         "rightClickAction": "settings",
         "rightClickCommand": "",
@@ -102,7 +102,7 @@
                     "visualizerType": "mirrored"
                 },
                 {
-                    "displayMode": "onhover",
+                    "displayMode": "alwaysHide",
                     "iconColor": "none",
                     "id": "Volume",
                     "middleClickCommand": "pwvucontrol || pavucontrol",
@@ -190,15 +190,15 @@
         ]
     },
     "colorSchemes": {
-        "darkMode": false,
+        "darkMode": true,
         "generationMethod": "tonal-spot",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "DP-3",
-        "predefinedScheme": "Monochrome",
+        "predefinedScheme": "Vesper",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": false
+        "useWallpaperColors": true
     },
     "controlCenter": {
         "cards": [
@@ -402,8 +402,8 @@
         "weatherTaliaMascotAlways": false
     },
     "network": {
-        "bluetoothAutoConnect": false,
-        "bluetoothDetailsViewMode": "list",
+        "bluetoothAutoConnect": true,
+        "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "bluetoothRssiPollIntervalMs": 60000,
         "bluetoothRssiPollingEnabled": false,
@@ -466,7 +466,7 @@
             1,
             2
         ],
-        "location": "bottom",
+        "location": "top",
         "monitors": [
             "DP-3"
         ],
@@ -576,6 +576,10 @@
             {
                 "enabled": true,
                 "id": "alacritty"
+            },
+            {
+                "enabled": true,
+                "id": "zenBrowser"
             }
         ],
         "enableUserTheming": false
@@ -602,7 +606,7 @@
         "favorites": [
             {
                 "appearance": "dark",
-                "colorScheme": "Nord",
+                "colorScheme": "Vesper",
                 "darkMode": true,
                 "generationMethod": "tonal-spot",
                 "paletteColors": [
@@ -616,7 +620,7 @@
             },
             {
                 "appearance": "dark",
-                "colorScheme": "Nord",
+                "colorScheme": "Vesper",
                 "darkMode": true,
                 "generationMethod": "tonal-spot",
                 "paletteColors": [
@@ -630,14 +634,14 @@
             },
             {
                 "appearance": "dark",
-                "colorScheme": "Nord",
+                "colorScheme": "Vesper",
                 "darkMode": true,
-                "generationMethod": "tonal-spot",
+                "generationMethod": "vibrant",
                 "paletteColors": [
-                    "#ffb4a6",
-                    "#e7bdb5",
-                    "#dcc48c",
-                    "#ffb4ab"
+                    "#f96752",
+                    "#f9b139",
+                    "#e1f939",
+                    "#d62107"
                 ],
                 "path": "/home/miles/Pictures/Wallpapers/wallhaven-6om7wq.jpg",
                 "useWallpaperColors": true
