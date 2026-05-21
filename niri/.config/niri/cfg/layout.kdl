@@ -15,5 +15,7 @@
         border {
             on
             width 1
+            active-color "#FFFFFF55"
+            inactive-color "#FFFFFF33"
         }
     }
