@@ -1,3 +1,5 @@
+// https://github.com/niri-wm/niri/wiki/Configuration:-Outputs
+
 output "HP Inc. HP X34 6CM1380CYV" {
     mode "3440x1440@165.000"
     position x=0 y=0
@@ -6,6 +8,10 @@ output "HP Inc. HP X34 6CM1380CYV" {
         // center-focused-column "always"
         center-focused-column "on-overflow"
         always-center-single-column
+    }
+
+    hot-corners {
+        off
     }
 }
 
@@ -16,5 +22,9 @@ output "Dell Inc. DELL S2721DGF 73SBP83" {
 
     layout {
         default-column-width { proportion 1.0; }
+    }
+
+    hot-corners {
+        off
     }
 }
