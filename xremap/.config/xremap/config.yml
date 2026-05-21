@@ -1,0 +1,14 @@
+keymap:
+    - name: Global Line Jumpers
+      remap:
+          M-Left: Home
+          M-Right: End
+          M-S-Left: S-Home
+          M-S-Right: S-End
+
+    - name: Browser Tab Cycling
+      application:
+          only: [chromium, zen]
+      remap:
+          C-q: C-S-tab
+          C-e: C-tab

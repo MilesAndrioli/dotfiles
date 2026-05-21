@@ -9,7 +9,10 @@ stow ~/dotfiles niri
 ## Xremap
 ```bash 
 paru -S xremap-niri-bin
-echo 'KERNEL=="uinput", GROUP="input", TAG+="uaccess"' | sudo tee /etc/udev/rules.d/99-input.rules
+
+echo "uinput" | sudo tee /etc/modules-load.d/uinput.conf
 sudo usermod -aG input $USER
+echo 'KERNEL=="uinput", GROUP="input", TAG+="uaccess"' | sudo tee /etc/udev/rules.d/99-input.rules
+
 sudo reboot
 ```

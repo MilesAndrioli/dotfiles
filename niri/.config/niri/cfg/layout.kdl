@@ -11,4 +11,9 @@
         focus-ring {
             off
         }
+
+        border {
+            on
+            width 1
+        }
     }

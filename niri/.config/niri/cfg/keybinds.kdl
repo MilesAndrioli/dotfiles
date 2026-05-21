@@ -1,40 +1,43 @@
 binds {
-    // ── Niri Keybindings ---
+    // ── Niri ---
     // https://github.com/YaLTeR/niri/wiki/Configuration:-Key-Bindings
 
-    // ─── Custom Setup ───
     Ctrl+MouseMiddle                    { toggle-overview; }
     Ctrl+Grave                          { toggle-overview; }
 
-    // Mouse Navigation
+    // Focus Navigation
     Shift+WheelScrollUp                 { focus-column-left; }
     Shift+WheelScrollDown               { focus-column-right; }
     Ctrl+WheelScrollUp                  { focus-workspace-up; }
     Ctrl+WheelScrollDown                { focus-workspace-down; }
 
-    // Mouse Realocation
-    Alt+Shift+WheelScrollUp             { move-column-left; }
-    Alt+Shift+WheelScrollDown           { move-column-right; }
-    Alt+Ctrl+WheelScrollUp              { move-column-to-workspace-up; }
-    Alt+Ctrl+WheelScrollDown            { move-column-to-workspace-down; }
+    // Window Realocation
+    Ctrl+Shift+W                        { move-column-to-workspace-up; }
+    Ctrl+Shift+A                        { move-column-left-or-to-monitor-left; }
+    Ctrl+Shift+S                        { move-column-to-workspace-down; }
+    Ctrl+Shift+D                        { move-column-right-or-to-monitor-right; }
 
     Mod+R                               { switch-preset-column-width; }
     Mod+F                               { expand-column-to-available-width; }
     Mod+M                               { fullscreen-window; }
     Mod+Q                               { close-window; }
 
-    // ─── Noctalia Keybindings ───
+    // ─── Noctalia ───
     // https://docs.noctalia.dev/getting-started/keybinds/
 
-    // ─── Applications ───
-    Mod+T                               hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
-    Mod+Space                           hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
-    Mod+B                               hotkey-overlay-title="Open Browser: chromium" { spawn "chromium"; }
-    Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
-    Mod+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+    // ── App Launching ──
+    CTRL+F12                            { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
 
-    // Please choose your own file manager.
-    Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn "nautilus"; }
+    Mod+T                               { spawn "alacritty"; }
+    Mod+B                               { spawn "zen-browser"; }
+    Mod+S                               { spawn "chromium" "--app=https://open.spotify.com"; }
+    Mod+Z                               { spawn "zeditor"; }
+    Mod+E                               { spawn "nautilus"; }
+
+    Mod+ALT+L                           { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
+    Mod+Shift+Q                         { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+
+
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call volume increase"; }

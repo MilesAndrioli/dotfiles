@@ -14,7 +14,6 @@
     },
 
     // typography
-    "ui_font_family": "Inter",
     "ui_font_size": 15,
     "buffer_font_features": {
         "calt": true,
@@ -108,6 +107,9 @@
         "indent_guides": {
             "show": "never",
         },
+    },
+    "git_panel": {
+        "dock": "left",
     },
     "git": {
         "inline_blame": {

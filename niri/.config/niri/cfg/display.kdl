@@ -3,9 +3,9 @@ output "HP Inc. HP X34 6CM1380CYV" {
     position x=0 y=0
 
     layout {
-        center-focused-column "always"
-        // center-focused-column "on-overflow"
-        // always-center-single-column
+        // center-focused-column "always"
+        center-focused-column "on-overflow"
+        always-center-single-column
     }
 }
 
