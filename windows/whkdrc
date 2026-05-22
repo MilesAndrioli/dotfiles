@@ -17,10 +17,10 @@ ctrl + shift + a : komorebic move left
 ctrl + shift + s : komorebic move down
 ctrl + shift + d : komorebic move right
 
-alt + shift + q : komorebic close
-alt + shift + t : komorebic toggle-float
-alt + shift + f : komorebic toggle-monocle
-alt + shift + r         : komorebic retile
+ctrl + alt + q : komorebic close
+ctrl + alt + t : komorebic toggle-float
+ctrl + alt + f : komorebic toggle-monocle
+ctrl + alt + r : komorebic retile
 
 ##############
 
