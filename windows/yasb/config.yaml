@@ -241,7 +241,7 @@ widgets:
             callbacks:
                 on_left: toggle_quick_launch
             keybindings:
-                - keys: ctrl+f12
+                - keys: alt+s
                   action: toggle_quick_launch
                   screen: primary
     active_window:
