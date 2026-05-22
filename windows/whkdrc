@@ -1,0 +1,31 @@
+.shell powershell
+
+ctrl + 1 : komorebic focus-workspace 0
+ctrl + 2 : komorebic focus-workspace 1
+ctrl + 3 : komorebic focus-workspace 2
+ctrl + 4 : komorebic focus-workspace 3
+ctrl + 5 : komorebic focus-workspace 4
+
+ctrl + shift + 1 : komorebic move-to-workspace 0
+ctrl + shift + 2 : komorebic move-to-workspace 1
+ctrl + shift + 3 : komorebic move-to-workspace 2
+ctrl + shift + 4 : komorebic move-to-workspace 3
+ctrl + shift + 5 : komorebic move-to-workspace 4
+
+ctrl + shift + w : komorebic move up
+ctrl + shift + a : komorebic move left
+ctrl + shift + s : komorebic move down
+ctrl + shift + d : komorebic move right
+
+alt + shift + q : komorebic close
+alt + shift + t : komorebic toggle-float
+alt + shift + f : komorebic toggle-monocle
+alt + shift + r         : komorebic retile
+
+##############
+
+# Reload whkd configuration
+alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden # if shell is pwsh / powershell
+alt + shift + o         : komorebic reload-configuration
+
+alt + i                 : komorebic toggle-shortcuts
