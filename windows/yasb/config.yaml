@@ -96,8 +96,7 @@ widgets:
         type: yasb.volume.VolumeWidget
         options:
             label: <span>{icon} </span>{level}
-            label_alt: <span>{icon}</span>
-            tooltip: true
+            tooltip: false
             volume_icons:
                 - "\uE74F"
                 - "\uE992"
@@ -106,7 +105,6 @@ widgets:
                 - "\uE995"
             callbacks:
                 on_left: toggle_volume_menu
-                on_middle: toggle_label
                 on_right: toggle_mute
             audio_menu:
                 blur: true
