@@ -1,7 +1,7 @@
 #!/bin/bash
 # Claude Code status line: model, effort, context and plan usage bars.
 GREEN=$'\033[32m'; YELLOW=$'\033[33m'; RED=$'\033[31m'; GRAY=$'\033[90m'; RESET=$'\033[0m'
-SEP=" ${GRAY}│${RESET} "
+SEP=" ${GRAY}//${RESET} "
 BAR_WIDTH=$(( ${COLUMNS:-120} < 85 ? 6 : 10 ))
 
 # bar <percent> <color>: half-cell resolution over a gray track.
