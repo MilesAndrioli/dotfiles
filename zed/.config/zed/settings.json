@@ -51,7 +51,7 @@
                 },
             },
         },
-        "Catppuccin Mocha (Blur) [Light]": {
+        "Catppuccin Mocha (Blur)": {
             "editor.document_highlight.read_background": "#0000",
             "border": "#FFFFFF33",
             "tab.active_background": "#FFFFFF33",
@@ -93,12 +93,13 @@
     // panels
     "project_panel": {
         "hide_root": true,
-        // "auto_fold_dirs": false,
+        "auto_fold_dirs": false,
         "indent_guides": {
             "show": "never",
         },
     },
     "git_panel": {
+        "tree_view": true,
         "dock": "left",
     },
     "git": {
