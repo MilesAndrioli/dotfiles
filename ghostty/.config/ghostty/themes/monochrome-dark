@@ -1,11 +1,5 @@
-# Vercel Mono Dark — escala de grises Geist.
-# Los colores ANSI se ordenan por brillo según "atención":
-# red > yellow > magenta > green > blue > cyan.
-
 background = #0a0a0a
 foreground = #ededed
-cursor-color = #ededed
-cursor-text = #0a0a0a
 selection-background = #333333
 selection-foreground = #ffffff
 split-divider-color = #2e2e2e
@@ -26,6 +20,4 @@ palette = 12=#b8b8b8
 palette = 13=#dadada
 palette = 14=#a8a8a8
 palette = 15=#ffffff
-
-# Deriva los 256 colores de la paleta base para que también sean grises.
 palette-generate = true
