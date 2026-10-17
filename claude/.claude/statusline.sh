@@ -2,7 +2,7 @@
 # Claude Code status line: model, effort, context and plan usage bars.
 GREEN=$'\033[32m'; YELLOW=$'\033[33m'; RED=$'\033[31m'; GRAY=$'\033[90m'; RESET=$'\033[0m'
 SEP=" ${GRAY}│${RESET} "
-BAR_WIDTH=$(( ${COLUMNS:-120} < 90 ? 6 : 10 ))
+BAR_WIDTH=$(( ${COLUMNS:-120} < 85 ? 6 : 10 ))
 
 # bar <percent> <color>: half-cell resolution over a gray track.
 bar() {
@@ -18,12 +18,12 @@ bar() {
   line="$model${effort:+ $GRAY$effort$RESET}"
   while IFS=$'\t' read -r label pct; do
     color=$GREEN; (( pct >= 50 )) && color=$YELLOW; (( pct >= 80 )) && color=$RED
-    line+="$SEP$label $(bar "$pct" "$color") $color$pct%$RESET"
+    line+="$SEP$GRAY$label$RESET $(bar "$pct" "$color") $color$pct%$RESET"
   done
   printf '%s\n' "$line"
 } < <(jq -r '
   [.model.display_name, .effort.level // ""],
-  ["Context", (.context_window.used_percentage // 0 | floor)],
+  ["⛁", (.context_window.used_percentage // 0 | floor)],
   (.rate_limits.five_hour // empty | ["↻ \(.resets_at | strflocaltime("%H:%M"))", (.used_percentage | floor)]),
   (.rate_limits.seven_day // empty | ["↻ \(.resets_at | strflocaltime("%a"))", (.used_percentage | floor)])
   | @tsv')
