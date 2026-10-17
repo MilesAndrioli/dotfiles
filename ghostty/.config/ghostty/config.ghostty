@@ -3,7 +3,7 @@ macos-titlebar-style = tabs
 window-padding-x = 16
 window-padding-y = 16
 
-theme = light:vercel-mono-light,dark:vercel-mono-dark
+theme = monochrome-dark
 background-opacity = 0.85
 background-blur = 60
 
