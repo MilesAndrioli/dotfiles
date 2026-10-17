@@ -1,0 +1,15 @@
+macos-window-buttons = hidden
+macos-titlebar-style = tabs
+window-padding-x = 16
+window-padding-y = 16
+
+theme = light:vercel-mono-light,dark:vercel-mono-dark
+background-opacity = 0.85
+background-blur = 60
+
+keybind = super+e=next_tab
+keybind = super+q=previous_tab
+keybind = super+s=new_split:down
+keybind = super+d=new_split:right
+
+focus-follows-mouse = true
