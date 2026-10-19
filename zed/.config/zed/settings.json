@@ -15,8 +15,12 @@
 
     // typography
     "ui_font_size": 15,
+    // "buffer_font_family": "JetBrainsMono Nerd Font Mono",
     "buffer_line_height": {
         "custom": 2,
+    },
+    "terminal": {
+        "font_family": "JetBrainsMono Nerd Font Mono",
     },
 
     // editor
